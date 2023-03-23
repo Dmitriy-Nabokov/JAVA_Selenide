@@ -12,8 +12,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
 import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.$x;
-import static java.nio.channels.SocketChannel.open;
+import static com.codeborne.selenide.Selenide.open;
 
 public class TestCardDeliveryService {
 
