@@ -19,11 +19,11 @@ public class TestCardDeliveryService {
     }
 
     @Test
-    public void ShouldRegister() {
+    public void shouldRegisterNewUser() {
 
-        open("http//localhost:9999");
+        open("http://localhost:9999");
         $("[data-test-id='city'] input").setValue("Казань");
-        String currentDate = generateDate(2, "dd.mm.yyyy");
+        String currentDate = generateDate(5, "dd.MM.yyyy");
         $("[data-test-id='date'] input").sendKeys(Keys.chord(Keys.SHIFT, Keys.HOME), Keys.DELETE);
         $("[data-test-id='date'] input").sendKeys(currentDate);
         $("[data-test-id='name'] input").setValue("ЛШТШФУМ Гульнара");
