@@ -1,1 +1,1 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/b4hm6rsmr156bfyd?svg=true)](https://ci.appveyor.com/project/Dmitriy-Nabokov/java-selenide)
+[![Build status](https://ci.appveyor.com/api/projects/status/2gcixew6f2v67ep3?svg=true)](https://ci.appveyor.com/project/Dmitriy-Nabokov/java-selenide)
